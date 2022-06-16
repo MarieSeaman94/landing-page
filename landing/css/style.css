@@ -1,0 +1,104 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Gentium Plus', serif;
+  background-color: rgba(192, 216, 239, .9);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Gentium Plus', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 2px 2px 3px #144445;
+  align-items: flex-end;
+}
+
+.banner p {
+  color: white;
+  opacity: .9;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 5px 5px 8px #050606;
+}
+
+
+.btn-primary {
+  display: inline-block;
+  background-color: #FA0028;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.card img {
+  height: 175px;
+
+}
+
+h2 {
+  text-align: center;
+  color: #144445;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 225px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 2px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #1D3245;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  white;
+}
+
+.footer p {
+  color: white;
+}
+
+.links a:hover{
+  color: rgb(247, 211, 2);
+}
